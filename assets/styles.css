@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0 120px;
+}
+/* Nav Items */
+.navbar-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.navbar-items a {
+    color: blue;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.navbar-items a:hover {
+    text-decoration: none;
+}
+
+/* Nav Items with Becoming Student red color */
+
+.navbar-items-nored {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.navbar-items-nored a {
+    color: blue;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+
+.navbar-items a:nth-child(4) {
+    color: red;
+    font-weight: bold;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+}
+
+h5,
+.image-2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+
+div.container {
+    width: 50%;
+    border: 2px solid black;
+}
+
+.container h4 {
+    text-align: center;
+    color: #297bad;
+    font-weight: bold;
+}
+
+.row {
+    margin: 10px 0;
+}
+
+.button {
+    margin: auto;
+    
+}
+
+input#submit,
+input#reset {
+    width: 80px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+
+input#username,
+input#password,
+input#repassword,
+input#firstname,
+input#lastname,
+input#email {
+    outline : 1px solid red;
+}
+
+input#firstname,
+input#lastname,
+input#email,
+input#phone {
+    width: 65%;
+}
+
+textarea#address {
+    width: 80%;
+}
+
+
+.col-4 p {
+    margin-top: 35px;
+}
